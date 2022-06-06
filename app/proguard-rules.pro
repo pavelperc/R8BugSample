@@ -19,3 +19,8 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+-keep class com.example.r8bugsample.Repository { *; }
+
+-printseeds build/r8/seeds.txt
+-printusage build/r8/usage.txt
