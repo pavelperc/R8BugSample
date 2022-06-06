@@ -2,7 +2,7 @@
 
 Encountered a bug after switching from Proguard to R8.
 
-This is a sample [class](src/main/java/com/example/r8bugsample/MainActivity.kt):
+This is a sample [class](app/src/main/java/com/example/r8bugsample/MainActivity.kt):
 
 ```kotlin
 class Repository {
