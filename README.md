@@ -2,6 +2,8 @@
 
 Encountered a bug after switching from Proguard to R8.
 
+Brief description.
+
 This is a sample [class](app/src/main/java/com/example/r8bugsample/MainActivity.kt):
 
 ```kotlin
@@ -33,3 +35,8 @@ kotlin.reflect.jvm.internal.KotlinReflectionInternalError: Property 'prop' (JVM 
 ```
 
 But when try to access `Repository::prop1.returnType`, works ok.
+
+
+Similar issue on stackoverflow:
+https://stackoverflow.com/questions/61493170/kotlin-reflect-crash-setting-minifyenabled-to-true-kotlinreflectioninternale
+
