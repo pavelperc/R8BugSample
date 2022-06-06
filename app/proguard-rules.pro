@@ -22,5 +22,7 @@
 
 -keep class com.example.r8bugsample.Repository { *; }
 
+-keep class kotlin.** {*; } # enables readable stacktrace
+
 -printseeds build/r8/seeds.txt
 -printusage build/r8/usage.txt
